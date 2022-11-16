@@ -3,3 +3,8 @@ export class CreateUserParams {
     password: string;
 
 }
+export class UpdateUserParams {
+    username: string;
+    password: string;
+
+}
