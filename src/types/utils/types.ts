@@ -8,3 +8,14 @@ export class UpdateUserParams {
     password: string;
 
 }
+
+export class CreateUserProfileParams {
+    firstName: string;
+    lastName: string;
+    age: number;
+    dob: string;
+}
+
+export class CreateUserPostParams {
+
+}
