@@ -17,5 +17,6 @@ export class CreateUserProfileParams {
 }
 
 export class CreateUserPostParams {
-
+    title: string;
+    description: string
 }
